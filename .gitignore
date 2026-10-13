@@ -216,5 +216,13 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+# Generated pipeline outputs
+data/raw/*.csv
+data/raw/*.parquet
+data/processed/*/
+!data/processed/.gitkeep
+spark-warehouse/
+.sparkStaging/
+
 # Streamlit
 .streamlit/secrets.toml
